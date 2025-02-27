@@ -1,6 +1,6 @@
-# 🚀 AFENet: Adaptive Frequency Enhancement Network for Remote Sensing Image Semantic Segmentation 
+# 🚀 AFENet: Adaptive Frequency Enhancement Network for Remote Sensing Image Semantic Segmentation (submitted to IEEE TGRS)
 
-# (submitted to IEEE TGRS)
+
 <div align=center>
  <img src="figs/fig_framework.png" alt="Framework" title="AFENet_Framework" width="80%" />
 </div>
