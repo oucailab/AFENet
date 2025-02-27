@@ -58,7 +58,7 @@ python train.py -c config/vaihingen/afenet.py --max_epoch 100 --lr 6e-4 --batch_
 
 - `--epoch`: Number of training epochs
 - `--lr`: Learning rate
-- `--batchsize`: Batch size
+- `--batch_size`: Batch size
 
 ---
 
