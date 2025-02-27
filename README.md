@@ -1,4 +1,4 @@
-# 📖 Adaptive Frequency Enhancement Network for Remote Sensing Image Semantic Segmentation (submitted to IEEE TGRS)
+## 📖 Adaptive Frequency Enhancement Network for Remote Sensing Image Semantic Segmentation (submitted to IEEE TGRS)
 
 This code is for our paper "Adaptive Frequency Enhancement Network for Remote Sensing Image Semantic Segmentation".
 
