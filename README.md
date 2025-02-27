@@ -11,9 +11,9 @@ This repository contains the official implementation of our paper:
 
 **AFENet** is an advanced **semantic segmentation network** specifically designed for **high-resolution remote sensing image segmentation**. By integrating **spatial and frequency domain features**, AFENet dynamically adapts network parameters to various land cover types while enhancing the interaction between spatial and frequency features, achieving **high-precision segmentation results and strong generalizability**.
 
-<div style="text-align: center;">
+<center>
     <img src="figs/fig_framework.png" alt="Framework" title="AFENet_Framework" width="70%" />
-</div>
+</center>
 
 ### 🔍 **Key Features**
 
