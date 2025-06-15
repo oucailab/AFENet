@@ -55,23 +55,26 @@ There are some scripts:
 
 Generate the training set.
 
-python GeoSeg/tools/**DATASET**_patch_split.py \
+```bash
+python GeoSeg/tools/DATASET_patch_split.py \
 --img-dir "Your/Image/Path" \
 --mask-dir "Your/Mask/Path" \
 --output-img-dir "Your/OutPut/Path" \
 --output-mask-dir "Your/OutPut/Path" \
 --mode "train" --split-size 1024 --stride 512 
+```
 
 Generate the testing set.
 
-python GeoSeg/tools/**DATASET**_patch_split.py \
+```bash
+python GeoSeg/tools/DATASET_patch_split.py \
 --img-dir "data/vaihingen/test_images" \
 --mask-dir "data/vaihingen/test_masks_eroded" \
 --output-img-dir "data/vaihingen/test/images_1024" \
 --output-mask-dir "data/vaihingen/test/masks_1024" \
 --mode "val" --split-size 1024 --stride 1024 \
 --eroded
-
+```
 
 ## 🏋️‍♂️ **Usage: Training AFENet**
 
@@ -88,10 +91,10 @@ python train.py -c config/vaihingen/afenet.py --max_epoch 100 --lr 6e-4 --batch_
 - `--batch_size`: Batch size
 
 ---
-##  **Usage :Testing AFENet**
+##  **Usage: Testing AFENet**
 
 ```bash
-python **DATASET**_test.py -c config/**DATASET**/afenet.py -o Your/Output/Path --rgb
+python DATASET_test.py -c config/DATASET/afenet.py -o Your/Output/Path --rgb
 ```
 
 ## 📬 **Contact**
