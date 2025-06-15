@@ -61,8 +61,9 @@ python GeoSeg/tools/DATASET_patch_split.py \
 --mask-dir "Your/Mask/Path" \
 --output-img-dir "Your/OutPut/Path" \
 --output-mask-dir "Your/OutPut/Path" \
---mode "train" --split-size 1024 --stride 512 
+--mode "train" --split-size 1024 --stride 512
 ```
+tips: stride has different values, vaihingen is 512, while potsdam is 1024.
 
 Generate the testing set.
 
@@ -74,6 +75,18 @@ python GeoSeg/tools/DATASET_patch_split.py \
 --output-mask-dir "data/vaihingen/test/masks_1024" \
 --mode "val" --split-size 1024 --stride 1024 \
 --eroded
+```
+
+Generate the masks_1024_rgb (RGB format ground truth labels) for visualization.
+
+```bash
+python GeoSeg/tools/DATASET_patch_split.py \
+--img-dir "data/vaihingen/test_images" \
+--mask-dir "data/vaihingen/test_masks_eroded" \
+--output-img-dir "data/vaihingen/test/images_1024" \
+--output-mask-dir "data/vaihingen/test/masks_1024" \
+--mode "val" --split-size 1024 --stride 1024 \
+--gt
 ```
 
 ## 🏋️‍♂️ **Usage: Training AFENet**
