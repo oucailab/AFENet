@@ -31,7 +31,7 @@ Feng Gao, Miao Fu, Jingchao Cao, Junyu Dong, Qian Du
 
 The dataset used in our experiments can be accessed from the following link:  
 
-📥 **[Download Dataset ]([Benchmark on Semantic Labeling](https://www.isprs.org/education/benchmarks/UrbanSemLab/default.aspx))**  
+📥 **[Download Dataset ]([Benchmark on Semantic Labeling (The official link is invalid).](https://www.isprs.org/education/benchmarks/UrbanSemLab/default.aspx))**  
 
 ---
 
