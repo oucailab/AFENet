@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/arXiv-2504.02647-b31b1b.svg" alt="arXiv">
 </a>
 <a href="https://ieeexplore.ieee.org/document/10955240">
-  <img src="https://img.shields.io/badge/IEEE-TGRS-b31b1b.svg" alt="IEEE">
+  <img src="https://img.shields.io/badge/IEEE-TGRS-blue.svg" alt="IEEE">
 </a>
 </p>
 
