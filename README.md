@@ -1,5 +1,19 @@
 # 🚀 AFENet: Adaptive Frequency Enhancement Network for Remote Sensing Image Semantic Segmentation, IEEE TGRS 2025
 
+<p align="center">
+  🖐😭🤚 🌟 If this work is useful to you, please give this repository a Star! 🌟 🖐😭🤚
+</p>
+
+<p align="center">
+<a href="https://arxiv.org/abs/2504.02647">
+  <img src="https://img.shields.io/badge/arXiv-2504.02647-b31b1b.svg" alt="arXiv">
+</a>
+<a href="https://ieeexplore.ieee.org/document/10955240">
+  <img src="https://img.shields.io/badge/IEEE-TGRS-b31b1b.svg" alt="IEEE">
+</a>
+</p>
+
+
 
 <div align=center>
  <img src="figs/fig_framework.png" alt="Framework" title="AFENet_Framework" width="80%" />
